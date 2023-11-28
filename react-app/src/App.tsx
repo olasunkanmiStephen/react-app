@@ -1,11 +1,11 @@
-import Alert from "./Components/alert";
-import button from "./Components/button";
+import React from "react";
+import Button from "./Components/Button"; // Use PascalCase for component names
 
 function App() {
   return (
     <div>
-      <Alert>Hello <span>World</span></Alert>
-      <button> hello</button>
+      {/* Using the Button component */}
+      <Button onClick={() => console.log('clicked')}>My Button</Button>
     </div>
   );
 }
